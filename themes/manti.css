@@ -1,4 +1,10 @@
 @font-face {
+    font-family: 'Script12';
+    src: url('../fonts/script12.ttf');
+    font-stretch: extra-expanded;
+}
+
+@font-face {
     font-family: 'Fontin-Regular';
     src: url('../fonts/Fontin-Regular.otf')
 }
@@ -42,12 +48,11 @@ a:hover {
 
 h1 {
     color: #E27D60;
-    font-family: 'Lobster', cursive;
+    font-family: 'Script12';
 }
 
 h2 {
     color: #84CEEB;
-    font-family: 'Fira Mono', monospace;
 
 }
 
