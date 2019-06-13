@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Fontin-Regular';
+    src: url('../fonts/Fontin-Regular.otf')
+}
+
+@font-face {
+    font-family: 'Fontin-Bold';
+    font-style: oblique;
+    src: url('../fonts/Fontin-Bold.otf')
+}
+
+@font-face {
+    font-family: 'Fontin-Italic';
+    font-style: italic;
+    src: url('../fonts/Fontin-Italic.otf')
+}
+
+@font-face {
+    font-family: 'Fontin-SmallCaps';
+    src: url('../fonts/Fontin-Smallcaps.otf')
+}
+
+body {
+    background: #1f2225;
+    color: #fff;
+    font-family: 'Fontin-Regular';
+}
+
+em {
+    color: #ffdd00;
+}
+
+a {
+    color: #7cbfe5;
+    text-decoration-skip: ink;
+    font-family: 'Fontin-Italic'
+}
+
+a:hover {
+    background: #4e5b6f;
+}
+
+h1 {
+    color: #E27D60;
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    color: #84CEEB;
+    font-family: 'Fira Mono', monospace;
+
+}
+
+h3 {
+    color: #E8A87C;
+    font-family: 'Fontin-Bold'
+}
+
+h4 {
+    color: #C38D9E;
+
+}
+
+h5 {
+    color: #41B3A3;
+}
+
+h6 {
+    color: #ffffcc
+}
