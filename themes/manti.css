@@ -11,13 +11,11 @@
 
 @font-face {
     font-family: 'Fontin-Bold';
-    font-style: oblique;
     src: url('../fonts/Fontin-Bold.otf')
 }
 
 @font-face {
     font-family: 'Fontin-Italic';
-    font-style: italic;
     src: url('../fonts/Fontin-Italic.otf')
 }
 
@@ -26,25 +24,38 @@
     src: url('../fonts/Fontin-Smallcaps.otf')
 }
 
+@font-face {
+    font-family: 'Delicious-SmallCaps';
+    src: url('../fonts/Delicious-Smallcaps.otf')
+}
+
+@font-face {
+    font-family: 'Delicious-Roman';
+    src: url('../fonts/Delicious-Roman.otf')
+}
+
+
 body {
-    background: #1f2225;
-    color: #fff;
-    font-family: 'Fontin-Regular';
+    background: #272C32;
+    color: #FFFFFF;
+    font-family: 'Delicious-Roman';
 }
 
 em {
-    color: #ffdd00;
+    color: #FADB03;
 }
 
 a {
-    color: #7cbfe5;
+    color: #7CBFE5;
+    background-color: #3A4556;
     text-decoration-skip: ink;
     font-family: 'Fontin-Italic'
 }
 
 a:hover {
-    background: #4e5b6f;
+    background: #4E5B6F;
 }
+
 
 h1 {
     color: #E27D60;
@@ -53,12 +64,10 @@ h1 {
 
 h2 {
     color: #84CEEB;
-
 }
 
 h3 {
     color: #E8A87C;
-    font-family: 'Fontin-Bold'
 }
 
 h4 {
@@ -73,3 +82,16 @@ h5 {
 h6 {
     color: #ffffcc
 }
+
+/* pre {
+    margin: 0;
+    padding: 0.2em;
+    background: #fff;
+    color: #000;
+    font-weight: normal;
+}
+
+pre em {
+    color: #000;
+    background: yellow;
+} */
