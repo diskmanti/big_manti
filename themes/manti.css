@@ -34,6 +34,11 @@
     src: url('../fonts/Delicious-Roman.otf')
 }
 
+@font-face {
+    font-family: 'Hylia';
+    src: url('../fonts/HyliaSerifBeta-Regular.otf')
+}
+
 
 body {
     background: #272C32;
@@ -64,6 +69,9 @@ h1 {
 
 h2 {
     color: #84CEEB;
+    font-family: 'Hylia';
+    font-size: 95%;
+
 }
 
 h3 {
