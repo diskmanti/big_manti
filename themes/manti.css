@@ -5,28 +5,8 @@
 }
 
 @font-face {
-    font-family: 'Fontin-Regular';
-    src: url('../fonts/Fontin-Regular.otf')
-}
-
-@font-face {
-    font-family: 'Fontin-Bold';
-    src: url('../fonts/Fontin-Bold.otf')
-}
-
-@font-face {
     font-family: 'Fontin-Italic';
     src: url('../fonts/Fontin-Italic.otf')
-}
-
-@font-face {
-    font-family: 'Fontin-SmallCaps';
-    src: url('../fonts/Fontin-Smallcaps.otf')
-}
-
-@font-face {
-    font-family: 'Delicious-SmallCaps';
-    src: url('../fonts/Delicious-Smallcaps.otf')
 }
 
 @font-face {
@@ -37,6 +17,16 @@
 @font-face {
     font-family: 'Hylia';
     src: url('../fonts/HyliaSerifBeta-Regular.otf')
+}
+
+@font-face {
+    font-family: 'ATCKrueger';
+    src: url('../fonts/ATC\ Krueger\ Bold.otf')
+}
+
+@font-face {
+    font-family: 'Serpentine';
+    src: url('../fonts/SerpentineDBol.ttf')
 }
 
 
@@ -63,32 +53,33 @@ a:hover {
 
 
 h1 {
-    color: #E27D60;
-    font-family: 'Script12';
+    color: #d4ce46;
+    font-family: 'Hylia';
 }
 
 h2 {
-    color: #84CEEB;
-    font-family: 'Hylia';
-    font-size: 95%;
-
+    color: #f0221c;
+    font-family: 'ATCKrueger';
 }
 
 h3 {
-    color: #E8A87C;
+    color: #F7A541;
+    font-family: 'Serpentine';
 }
 
 h4 {
-    color: #C38D9E;
+    color: #a4142d;
+    font-family: 'Script12';
+    /* font-size: 95%; */
 
 }
 
 h5 {
-    color: #41B3A3;
+    color: #c87281;
 }
 
 h6 {
-    color: #ffffcc
+    color: #d18996;
 }
 
 pre {
